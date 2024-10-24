@@ -2,6 +2,7 @@
 //ordinateur.class.php
 
             Class Ordinateur {
+                // / class sert a décrire objet avec nos caractéristique et ne contient que cela les caractéristiques sont entre accolade
                 private $marque;
 
 
@@ -26,3 +27,5 @@
             // créer un objet Ordinateur de marque Smasung
             echo $poste->getMarque();
            // affichera "Samsung"
+           var_dump($poste);
+            // permets de voir les composantes a ma variable

@@ -28,3 +28,5 @@
             $poste->setCpuClock(3);
             echo $poste->getCpuClock()."GHz";
             //Affichera "3GHz"
+            var_dump($poste);
+             // permets de voir les composantes a ma variable

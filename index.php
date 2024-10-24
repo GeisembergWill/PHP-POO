@@ -4,7 +4,7 @@
         Class Ordinateur{
             // class sert a décrire objet avec nos caractéristique et ne contient que cela les caractéristiques sont entre accolade
             private$_marque;
-            //attribut "marque"
+            //encapsuler dans attribut "marque"
             private$_modele;
             private$_ecran;
             private$_statut =0;
@@ -26,3 +26,5 @@
         // on allume cet ordinateur $poste en appelant sa methode allumer de la meme maniere qu'une fonction classique en PHP
         // cependant la fleche -> intime l'ordre a l'objet  d'utiliser  SA methode.
      
+    
+        // permets de voir les composantes a ma variable
